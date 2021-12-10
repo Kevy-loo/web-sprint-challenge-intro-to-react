@@ -12,6 +12,7 @@ const StyleContainer = styled.div`
 
     }
 `
+//not sure if we can delete the indexcss file so i can change background img/background color or anything like that
 
 
 const Starwars = (props) => {

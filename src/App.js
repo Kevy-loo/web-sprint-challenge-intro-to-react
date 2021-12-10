@@ -28,7 +28,7 @@ const App = () => {
       <div> 
         {
           characters.map((character) => {
-            return <Starwars {...character}/>
+            return <Starwars {...character}/>// used spread operator just incase i wanted to access multiple properties
           })
         }
       </div>
